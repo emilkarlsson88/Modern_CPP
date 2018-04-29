@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu
 MAINTAINER Emil Karlsson <emilkarlsson88@gmail.com>
 
 RUN apt-get update && \

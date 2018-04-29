@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER Emil Karlsson <emilkarlsson88@gmail.com>
 
 RUN apt-get update && \
-    apt-get install -y \
+    apt-get install -y --no-install-recommends \
     gcc \
     cmake \
     cppcheck

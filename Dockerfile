@@ -5,4 +5,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     gcc \
     cmake \
-    cppcheck
+    cppcheck \
+    clang-format-3.9
+
+RUN ln -s /usr/bin/clang-format-3.9 /usr/bin/clang-format

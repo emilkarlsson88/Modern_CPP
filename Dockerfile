@@ -8,11 +8,13 @@ RUN apt-get update && \
     apt-get update && \
     apt-get -y upgrade && \
     apt-get install -y \
+    g++ \
     gcc \
     cmake \
     cppcheck \
     clang-format-6.0 \
-    clang-tidy-6.0
+    clang-tidy-6.0 \
+    vim
 
 RUN ln -s /usr/bin/clang-format-6.0 /usr/local/bin/clang-format
 RUN ln -s /usr/bin/clang-tidy-6.0 /usr/local/bin/clang-tidy

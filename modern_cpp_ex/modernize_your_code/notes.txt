@@ -1,0 +1,1 @@
+Introduce clang-tidy and illustrate what it can do/fix

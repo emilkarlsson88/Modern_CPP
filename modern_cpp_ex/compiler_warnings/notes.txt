@@ -1,0 +1,3 @@
+Create here a main.cpp that contains some of the commen problems/issues that the
+GCC compiler can catch.
+

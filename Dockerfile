@@ -8,6 +8,7 @@ RUN apt-get update && \
     apt-get update && \
     apt-get -y upgrade && \
     apt-get install -y \
+    git \
     gcc \
     cmake \
     cppcheck \

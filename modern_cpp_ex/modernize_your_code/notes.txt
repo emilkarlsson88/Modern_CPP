@@ -27,5 +27,31 @@ Introduce clang-tidy and illustrate what it can do/fix
   	 modernize-use-transparent-functors
   	 modernize-use-using
 
+#Create ex
+	 modernize-avoid-bind <- Done
+         modernize-deprecated-headers <- Done
+         modernize-loop-convert <- Done
+         modernize-make-shared <- Done
+         modernize-make-unique <- Done
+         modernize-pass-by-value
+         modernize-raw-string-literal <- Done
+         modernize-redundant-void-arg <- Done
+         modernize-replace-auto-ptr <- Done
+         modernize-replace-random-shuffle
+         modernize-return-braced-init-list
+         modernize-shrink-to-fit
+         modernize-unary-static-assert
+         modernize-use-auto <- Done
+         modernize-use-bool-literals <- Done
+         modernize-use-default-member-init <- Done
+         modernize-use-emplace <- Done
+         modernize-use-equals-default <- Done
+         modernize-use-equals-delete <- Done
+         modernize-use-noexcept
+         modernize-use-nullptr <- Done
+         modernize-use-override
+         modernize-use-transparent-functors <- Done
+         modernize-use-using <- Done
+
 #Run
 	clang-tidy -checks='modernize-*' main.cpp -- -std=c++17

@@ -1,7 +1,13 @@
 #include<functional>
+#include<map>
 #include<iostream>
 #include<memory>
 #include<assert.h> // <- modernize-deprecated-headers
+
+// modernize-raw-string-literal
+const char *const Path{"C:\\Program Files\\Vendor\\Application.exe"};
+const char *const RegEx{"\\w\\([a-z]\\)"};
+
 int add(int x, int y) { return x + y; }
 
 class MyPair {
@@ -11,7 +17,7 @@ class MyPair {
 	public:
 		MyPair(int t_one, int t_two) :
 		       	m_one(t_one), m_two(t_two) {};
-		void print() {
+		void print(void) { // <- modernize-redundant-void-arg
 			std::cout 
 				<< m_one 
 				<< " + " 
@@ -20,6 +26,31 @@ class MyPair {
 				<< m_one + m_two << '\n';
 		}
 };
+
+struct A {
+	A() : i(5), j(10.0) {} // <- modernize-use-default-member-init
+	A(int i) : i(i), j(10.0) {}
+	int i;
+	double j;
+};
+
+struct B {
+	B() {}; // <- modernize-use-equals-default
+	~B() {}; // <- modernize-use-equals-default
+	private:
+		B(const B&);
+		B& operator=(const B&);
+};
+
+void assignment() {
+	char *a = NULL; // <- modernize-use-nullptr
+	char *b = 0; // <- modernize-use-nullptr
+	char c = 0;
+}
+
+int *ret_ptr() {
+	return 0; // <- modernize-use-nullptr
+}
 
 int main() {
 	// modernize-avoid-bind
@@ -40,7 +71,27 @@ int main() {
 	std::cout << '\n';
 
 	// modernize-make-shared
-	auto my_ptr = std::shared_ptr<MyPair>(new MyPair(1, 2));
-	my_ptr->print();
+	auto my_shared_ptr = std::shared_ptr<MyPair>(new MyPair(1, 2));
+	my_shared_ptr->print();
 
+	// modernize-make-unique
+	auto my_unique_ptr = std::unique_ptr<MyPair>(new MyPair(1, 2));
+	my_unique_ptr->print();
+
+	// modernize-use-bool-literals
+	bool flag = false;
+	bool action = flag ? 1 : 0;
+	std::cout << std::boolalpha  << action << '\n';
+
+	// modernize-use-emplace
+	std::vector<MyPair> vecPar;
+	vecPar.push_back(MyPair(1,2));
+	vecPar.push_back(MyPair(1,2));
+	vecPar.push_back(MyPair(1,2));
+
+	// modernize-use-transparent-functors	
+	std::map<int, std::string, std::greater<int>> s;
+
+	// modernize-use-using 
+	typedef int variable;
 }

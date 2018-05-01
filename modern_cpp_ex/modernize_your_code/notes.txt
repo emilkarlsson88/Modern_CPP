@@ -1,1 +1,31 @@
 Introduce clang-tidy and illustrate what it can do/fix
+
+#show flags action
+	clang-tidy --list-checks -checks='*' | grep "modernize"
+	 modernize-avoid-bind
+   	 modernize-deprecated-headers
+  	 modernize-loop-convert
+  	 modernize-make-shared
+  	 modernize-make-unique
+  	 modernize-pass-by-value
+  	 modernize-raw-string-literal
+  	 modernize-redundant-void-arg
+  	 modernize-replace-auto-ptr
+  	 modernize-replace-random-shuffle
+  	 modernize-return-braced-init-list
+  	 modernize-shrink-to-fit
+  	 modernize-unary-static-assert
+  	 modernize-use-auto
+  	 modernize-use-bool-literals
+  	 modernize-use-default-member-init
+  	 modernize-use-emplace
+  	 modernize-use-equals-default
+  	 modernize-use-equals-delete
+  	 modernize-use-noexcept
+  	 modernize-use-nullptr
+  	 modernize-use-override
+  	 modernize-use-transparent-functors
+  	 modernize-use-using
+
+#Run
+	clang-tidy -checks='modernize-*' main.cpp -- -std=c++17

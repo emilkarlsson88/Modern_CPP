@@ -1,0 +1,23 @@
+#Show them the code in main.cpp and pointout the bug
+
+#Show that is compiles without any warnings 
+	g++ main.cpp
+#Show that the program runs but print out something "wrong"
+
+#Enable warnings, pointout that still no warnings are generated and the program stills runs
+	g++ -Wall -Wextra main.cpp
+#Show how to enable the address sanitizer and run ./a.out
+	g++ -Wall -Werror main.cpp -fsanitize=address
+#
+==231==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffc580b4888 at pc 0x55a9862443a8 bp 0x7ffc580b4800 sp 0x7ffc580b47f0
+READ of size 8 at 0x7ffc580b4888 thread T0
+    #0 0x55a9862443a7 in main (/home/modern_cpp_ex/sanitizers/a.out+0x13a7) <- POINT THIS OUT!
+    #1 0x7f66d040d1c0 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x211c0)
+    #2 0x55a986244169 in _start (/home/modern_cpp_ex/sanitizers/a.out+0x1169)
+#Enable debug and and run again
+	g++ -Wall -Werror main.cpp -fsanitize=address -g
+==239==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffdf2e34798 at pc 0x561aa95573a8 bp 0x7ffdf2e34710 sp 0x7ffdf2e34700
+READ of size 8 at 0x7ffdf2e34798 thread T0
+    #0 0x561aa95573a7 in main /home/modern_cpp_ex/sanitizers/main.cpp:5 <- BETTER OUTPUT!!
+    #1 0x7fac1e1ab1c0 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x211c0)
+    #2 0x561aa9557169 in _start (/home/modern_cpp_ex/sanitizers/a.out+0x1169)

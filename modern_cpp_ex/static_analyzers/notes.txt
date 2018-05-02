@@ -1,3 +1,9 @@
+#Show them the main.cpp and mention stack and heap allocation
+
+#Point out that you have to manage you own heap memory in c++ and how the
+program leak.
+
+
 Introduce
   cppcheck
 

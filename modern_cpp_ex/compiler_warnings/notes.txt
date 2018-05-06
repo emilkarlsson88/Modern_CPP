@@ -1,3 +1,9 @@
 Create here a main.cpp that contains some of the commen problems/issues that the
 GCC compiler can catch.
 
+# Display all warnings flags on g++
+	g++ --help=warnings
+
+# Good standard to compile with
+	g++ -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic
+

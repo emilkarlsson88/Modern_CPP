@@ -1,0 +1,10 @@
+#Show the code and give a short intro to threads and data race
+
+#Explain what the code should do but why data races make the code not ot work
+	g++ threadSanitizer.cpp -pthread -std=c++17
+
+#turn on thread sanitizer and run the program again
+	g++ threadSanitizer.cpp -pthread -std=c++17 -fsanitize=thread
+
+#Enable debuging to see which line the race occurred
+	g++ threadSanitizer.cpp -pthread -std=c++17 -fsanitize=thread -g

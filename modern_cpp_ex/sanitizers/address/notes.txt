@@ -1,10 +1,10 @@
-#Show them the code in main.cpp and pointout the bug
+#Show them the code in main.cpp and point out the bug
 
 #Show that is compiles without any warnings 
 	g++ main.cpp
 #Show that the program runs but print out something "wrong"
 
-#Enable warnings, pointout that still no warnings are generated and the program stills runs
+#Enable warnings, point out that still no warnings are generated and the program stills runs
 	g++ -Wall -Wextra main.cpp
 #Show how to enable the address sanitizer and run ./a.out
 	g++ -Wall -Werror main.cpp -fsanitize=address

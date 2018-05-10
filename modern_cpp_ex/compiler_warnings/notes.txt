@@ -6,4 +6,12 @@ GCC compiler can catch.
 
 # Good standard to compile with
 	g++ -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic
+	
+#For visual studio
+	/W4
+#Warnings flags in VC have a different syntax then g++. Like
+	/w14265
+	/w14254
+	...
+#Note: There is an "-Wall" (/Wall) flag in VC but it produce a forest of warnings that makes it useless.
 

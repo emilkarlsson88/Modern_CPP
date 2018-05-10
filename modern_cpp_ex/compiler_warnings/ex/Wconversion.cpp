@@ -1,5 +1,9 @@
-#include<iostream>
+#include <iostream>
+#include <limits>
 int main() {
+  short min_val = std::numeric_limits<short>::min();
+  short max_val = std::numeric_limits<short>::max();
   short value = 20000 + 20000;
-  std::cout << value << std::endl;
+  std::cout << min_val << " <= short <= " << max_val << '\n';
+  std::cout << value << '\n';
 }

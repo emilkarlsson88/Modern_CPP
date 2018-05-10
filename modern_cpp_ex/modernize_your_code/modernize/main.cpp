@@ -77,21 +77,4 @@ int main() {
 	// modernize-make-unique
 	auto my_unique_ptr = std::unique_ptr<MyPair>(new MyPair(1, 2));
 	my_unique_ptr->print();
-
-	// modernize-use-bool-literals
-	bool flag = false;
-	bool action = flag ? 1 : 0;
-	std::cout << std::boolalpha  << action << '\n';
-
-	// modernize-use-emplace
-	std::vector<MyPair> vecPar;
-	vecPar.push_back(MyPair(1,2));
-	vecPar.push_back(MyPair(1,2));
-	vecPar.push_back(MyPair(1,2));
-
-	// modernize-use-transparent-functors	
-	std::map<int, std::string, std::greater<int>> s;
-
-	// modernize-use-using 
-	typedef int variable;
 }

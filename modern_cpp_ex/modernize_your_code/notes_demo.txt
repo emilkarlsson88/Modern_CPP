@@ -1,0 +1,26 @@
+#Show the code and point out old stuff
+
+#Show the different checks clang-tidy have
+	clang-tidy -list-checks -checks=*
+Show the override check ('-*' disable the other enabled checks)
+	clang-tidy demo.cpp -checks="-*,modernize-use-override" -- std=c++17
+
+#Show how to auto fix the suggested changes with "-fix"
+	clang-tidy demo.cpp -checks="-*,modernize-use-override" -fix  -- std=c++17
+
+#Show the auto check
+	clang-tidy demo.cpp -checks="-*,modernize-use-auto" -- std=c++17
+#Auto fix the changes 
+	clang-tidy demo.cpp -checks="-*,modernize-use-auto" -fix -- std=c++17
+#The Code is probably a bit messedup so us clang-format to make it pretty
+	clang-format -i demo.cpp
+#Show loop converter
+	clang-tidy demo.cpp -checks="-*,modernize-loop-convert" -- std=c++17
+#Fit them
+	clang-tidy demo.cpp -checks="-*,modernize-loop-convert" -fix -- std=c++17
+
+#In the "for(...)" clang-tidy don't know if you prefer "auto& name" or "auto &name"
+	clang-format -i demo.cpp	 
+
+#Show the orig code and the new one side-dy-dide
+	vim -O demo_orig.cpp demo.cpp

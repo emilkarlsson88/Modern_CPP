@@ -33,6 +33,7 @@
 
 +++?code=modern_cpp_ex/clang_tidy_checks/demo_orig.cpp&lang=cpp
 
+---
 #### **cppcheck**
 ![Press Down Key](assets/down-arrow.png)
 +++

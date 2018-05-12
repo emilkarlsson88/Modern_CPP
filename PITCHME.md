@@ -11,8 +11,8 @@
 
 ![Press Down Key](assets/down-arrow.png)
 +++
-![Logo](assets/google_the_error_message.jpg&size=auto 50%)
-![Logo](assets/copy_and_pasting_from_stack_overflow.jpg&size=auto 50%)
+![Logo](assets/google_the_error_message.jpg)
+![Logo](assets/copy_and_pasting_from_stack_overflow.jpg)
 ---
 @title[Main Points]
 

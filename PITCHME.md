@@ -25,7 +25,7 @@ do, you blow away your whole leg!" //Stroustrup
 
 ---
 ### **compiler warnings** 
-![Press Down Key](assets/down-arrow.png)
+![Image-Relative](https://media.giphy.com/media/1sd2bQx5GnQf6/giphy.gif)
 +++
 Catch bugs early from warnings messages.
 +++?code=modern_cpp_ex/compiler_warnings/ex/Wconversion.cpp&lang=cpp

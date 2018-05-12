@@ -11,6 +11,8 @@
 
 ![Press Down Key](assets/down-arrow.png)
 +++
+C++ makes it harder to shoot yourself in the foot [than C does], but when you
+do, you blow away your whole leg! //Stroustrup
 ![Image-Relative](https://media.giphy.com/media/PerRzSEG0PuKY/giphy.gif)
 
 +++?image=assets/books.jpg&size=auto 70%

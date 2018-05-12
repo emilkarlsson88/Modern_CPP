@@ -8,8 +8,7 @@
 #### Tools and Best Practic 
 
 ### You Need To Know!
-
-![Press Down Key](assets/down-arrow.png)
+![Image-Relative](https://media.giphy.com/media/3hQ0hZDo4QhR6/giphy.gif)
 +++
 ![Image-Relative](https://media.giphy.com/media/PerRzSEG0PuKY/giphy.gif)
 "C++ makes it harder to shoot yourself in the foot [than C does], but when you
@@ -42,7 +41,7 @@ Catch bugs early from warnings messages.
 <p> Turn the warnings as high as possible.
 <p> If you find a bug, see if you can find a warning flag for it.
 ---
-#### **clang-tidy** and **clang-format**
+### **clang-tidy** and **clang-format**
 ![Image-Relative](https://media.giphy.com/media/36f3FuSRfoozm/giphy.gif)
 +++
 **Clang-tidy** is a clang-based C++ “**linter**” tool.

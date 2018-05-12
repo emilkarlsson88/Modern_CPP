@@ -68,6 +68,5 @@ But it can also make you write modern C++!!
 
 ---
 #### **sanitizer**
-![Press Down Key](assets/down-arrow.png)
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
 +++

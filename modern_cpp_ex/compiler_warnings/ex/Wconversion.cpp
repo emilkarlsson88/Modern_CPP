@@ -5,5 +5,5 @@ int main() {
   short max_val = std::numeric_limits<short>::max();
   short value = 20000 + 20000;
   std::cout << min_val << " <= short <= " << max_val << '\n';
-  std::cout << value << '\n';
+  std::cout << "20000 + 20000 = " << value << '\n';
 }

@@ -14,9 +14,8 @@
 ![Image-Relative](https://media.giphy.com/media/PerRzSEG0PuKY/giphy.gif)
 "C++ makes it harder to shoot yourself in the foot [than C does], but when you
 do, you blow away your whole leg!" //Stroustrup
-
+<span style="color:black; font-size:0.7em">How you solve it</span>
 +++?image=assets/books.jpg&size=auto 70%
-#How do we solve problems?
 +++
 @title[Main Points]
 

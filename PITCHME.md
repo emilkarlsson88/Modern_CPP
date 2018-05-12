@@ -1,6 +1,6 @@
 # Modern C++
 
-### A Short Intro on tools to not scrue up!
+### A Short Intro on tools!
 
 ---
 
@@ -23,7 +23,7 @@
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+---?code=modern\_cpp\_ex/clang\_tidy\_checks/bugprone/misc-incorrect-roundings.cpp&lang=c++lang&title=Golang File
 
 @[1,3-6](Present code found within any repo source file.)
 @[8-18](Without ever leaving your slideshow.)

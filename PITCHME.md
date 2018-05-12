@@ -20,14 +20,14 @@
 ###### <p> **sanitizer**
 
 ---
-
 #### **compiler warnings** 
-
-
----
-
+![Press Down Key](assets/down-arrow.png)
++++
+### Treat compiler warnings as errors
++++?code=modern_cpp_ex/compiler_warnings/ex/Wconversion.cpp&lang=cpp
 #### **clang-tidy** and **clang-format**
 ![Press Down Key](assets/down-arrow.png)
+
 +++
 **Clang-tidy** is a clang-based C++ “**linter**” tool.
 <p> Its purpose is to provide an extensible framework for diagnosing and **fixing typical programming errors**, like style violations, interface misuse, or bugs that can be deduced via **static analysis**.
@@ -36,15 +36,17 @@
 @[7,12](Should use override specifier)
 @[17-20](Boilderplate code)
 @[23-27](Boilderplate code)
-@[29,31-33](Risk of out-of-bound access => Undefined Behavior)
+@[29,31-33](Risk of out-of-bound access => Undefined Behavior!)
+
 ---
 #### **cppcheck**
 ![Press Down Key](assets/down-arrow.png)
+
 +++
 **Cppcheck** is a **static analysis** tool for C/C++ code.
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 
 ---
-
 #### **sanitizer**
----
+![Press Down Key](assets/down-arrow.png)
++++

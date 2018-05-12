@@ -10,7 +10,7 @@
 ### You Need To Know!
 
 ![Press Down Key](assets/down-arrow.png)
-+++?image=assets/books.jpg&size=auto 50%
++++?image=assets/books.jpg&size=auto 70%
 +++
 @title[Main Points]
 
@@ -34,9 +34,9 @@
 
 +++?code=modern_cpp_ex/clang_tidy_checks/demo_orig.cpp&lang=cpp
 @[7,12](Should use override specifier)
-@[17-18](Boilderplate code)
-@[23-24](Boilderplate code)
-@[31-32](Risk of out-of-bound access => Undefined Behavior)
+@[17-20](Boilderplate code)
+@[23-27](Boilderplate code)
+@[29,31-33](Risk of out-of-bound access => Undefined Behavior)
 ---
 #### **cppcheck**
 ![Press Down Key](assets/down-arrow.png)

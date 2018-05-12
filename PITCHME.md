@@ -19,3 +19,21 @@
 ###### <p> **sanitizer**
 
 ---
++++
+@title[Compiler warnings]
+
+
+---
++++
+@title[Clang-tidy]
+
+---
++++
+@title[CppCheck]
+
+
+---
++++
+@title[Sanitizer]
+
+---

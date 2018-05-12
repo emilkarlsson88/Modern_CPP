@@ -12,7 +12,7 @@
 ![Press Down Key](assets/down-arrow.png)
 +++
 ---?image=assets/google_the_error_message.jpg&size=auto 50%
----?image=copy_and_pasting_from_stack_overflow.jpg&size=auto 50%
+---?image=assets/copy_and_pasting_from_stack_overflow.jpg&size=auto 50%
 ---
 @title[Main Points]
 

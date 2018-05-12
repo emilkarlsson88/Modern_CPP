@@ -29,8 +29,7 @@
 ![Press Down Key](assets/down-arrow.png)
 +++
 **clang-tidy** is a clang-based C++ “**linter**” tool.
-<p> Its purpose is to provide an extensible framework for diagnosing and **fixing typical programming errors**,
- <p> like style violations, interface misuse, or bugs that can be deduced via **static analysis**.
+<p> Its purpose is to provide an extensible framework for diagnosing and **fixing typical programming errors**, like style violations, interface misuse, or bugs that can be deduced via **static analysis**.
 
 ---
 

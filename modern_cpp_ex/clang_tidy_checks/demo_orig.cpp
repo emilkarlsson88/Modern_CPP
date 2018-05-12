@@ -14,18 +14,20 @@ public:
 
 Foo *getFoo() {
   std::vector<std::string> names;
- 	names.push_back("test");
-  for (std::vector<std::string>::iterator it = names.begin(); it != names.end();
-       ++it) {
+  names.push_back("test");
+  for (std::vector<std::string>::iterator it = names.begin();
+       it != names.end(); ++it) {
     std::cout << *it << '\n';
   }
 
   std::vector<Foo> foos;
-  	foos.push_back(Foo());
-  for (std::vector<Foo>::iterator it = foos.begin(); it != foos.end(); ++it) {
+  foos.push_back(Foo());
+  for (std::vector<Foo>::iterator it = foos.begin();
+       it != foos.end(); ++it) {
     Foo &my_foo = *it;
     my_foo.g();
   }
+
   const int N = 3;
   int values[N] = {1, 2, 3};
   for (int i = 0; i < N; ++i) {

@@ -10,9 +10,8 @@
 ### You Need To Know!
 
 ![Press Down Key](assets/down-arrow.png)
++++?image=assets/books.jpg&size=auto 50%
 +++
----?image=assets/books.jpg&size=auto 50%
----
 @title[Main Points]
 
 ###### <p> **compiler warnings**

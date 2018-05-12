@@ -14,7 +14,7 @@
 @title[Main Points]
 
 ###### <p> **compiler warnings**
-###### <p> **clang-tidy** and <p> **clang-format**
+###### <p> **clang-tidy** and **clang-format**
 ###### <p> **cppcheck**
 ###### <p> **sanitizer**
 

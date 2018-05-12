@@ -13,15 +13,13 @@ public:
 };
 
 Foo *getFoo() {
-  std::vector<std::string> names;
-  names.push_back("test");
+  std::vector<std::string> names{"test"};
   for (std::vector<std::string>::iterator it = names.begin();
        it != names.end(); ++it) {
     std::cout << *it << '\n';
   }
 
-  std::vector<Foo> foos;
-  foos.push_back(Foo());
+  std::vector<Foo> foos{Foo()};
   for (std::vector<Foo>::iterator it = foos.begin();
        it != foos.end(); ++it) {
     Foo &my_foo = *it;

@@ -10,6 +10,9 @@
 ### You Need To Know!
 
 ![Press Down Key](assets/down-arrow.png)
++++
+![Image-Relative](https://media.giphy.com/media/PerRzSEG0PuKY/giphy.gif)
+
 +++?image=assets/books.jpg&size=auto 70%
 +++
 @title[Main Points]
@@ -54,9 +57,6 @@ But it can also make you write modern C++!!
 +++?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp
 @[5,12](Round of the float value to an int)
 @[16-17](What will it print?)
-+++?image=assets/TopHit.jpg
-+++?image=assets/round.jpg
-AAAHHHH!
 ---
 #### **cppcheck**
 ![Press Down Key](assets/down-arrow.png)

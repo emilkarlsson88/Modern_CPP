@@ -52,7 +52,8 @@ But it can also make you write modern C++!!
 @[23-27](Boilderplate code)
 @[29,31-33](Risk of out-of-bound access => Undefined Behavior!)
 +++?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp
-
+@[5,12](Round of the float value to an int)
+@[16-17](What will happen?)
 
 ---
 #### **cppcheck**

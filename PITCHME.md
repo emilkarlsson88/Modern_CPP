@@ -28,12 +28,16 @@
 #### **clang-tidy** and **clang-format**
 ![Press Down Key](assets/down-arrow.png)
 +++
-**clang-tidy** is a clang-based C++ “**linter**” tool.
+**Clang-tidy** is a clang-based C++ “**linter**” tool.
 <p> Its purpose is to provide an extensible framework for diagnosing and **fixing typical programming errors**, like style violations, interface misuse, or bugs that can be deduced via **static analysis**.
 
 ---
 
 #### **cppcheck**
+![Press Down Key](assets/down-arrow.png)
++++
+**Cppcheck** is a **static analysis** tool for C/C++ code.
+<p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 
 ---
 

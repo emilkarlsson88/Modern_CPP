@@ -56,6 +56,7 @@ But it can also make you write modern C++!!
 +++?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp
 @[4-6,12](Round of the float value to an int)
 @[16-17](What will it print?)
++++
 ![Image-Absolute](assets/tophit.jpg)
 ---
 ### **cppcheck**

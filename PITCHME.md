@@ -33,10 +33,10 @@ Catch bugs early from warnings messages.
 @[7](2)
 @[9](?)
 @[9](1)
-Catch those with -Wshadow
 +++
 #### **Takeaway**
-
+Compile at a high warning level
+<p> g++ -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic
 ---
 #### **clang-tidy** and **clang-format**
 ![Press Down Key](assets/down-arrow.png)

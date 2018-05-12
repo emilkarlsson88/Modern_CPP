@@ -13,9 +13,9 @@
 +++
 @title[Main Points]
 
-######## Find bugs early from <p> **compiler warnings**
-######## Hold a good standard with <p> **clang-tidy** and <p> **clang-format**
-######## Find Bugs with <p> **cppcheck**
-######## Introduce compiler <p> **sanitizer**
+###### <p> **compiler warnings**
+###### <p> **clang-tidy** and <p> **clang-format**
+###### <p> **cppcheck**
+###### <p> **sanitizer**
 
 ---

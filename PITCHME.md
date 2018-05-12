@@ -23,11 +23,17 @@
 #### **compiler warnings** 
 ![Press Down Key](assets/down-arrow.png)
 +++
-### Catch bugs early from warnings messages.
+Catch bugs early from warnings messages.
 +++?code=modern_cpp_ex/compiler_warnings/ex/Wconversion.cpp&lang=cpp
 @[7](-32768 <= short <= 32767)
 @[8](?)
 @[8](20000 + 20000 = -25536)
++++?code=modern_cpp_ex/compiler_warnings/ex/Wshadow.cpp&lang=cpp
+@[4](1)
+@[7](2)
+@[9](?)
+@[9](1)
+
 
 ---
 #### **clang-tidy** and **clang-format**

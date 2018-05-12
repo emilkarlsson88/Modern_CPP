@@ -1,10 +1,10 @@
 #include<iostream>
 int main() {
-  int name = 1;
-  std::cout << name << '\n';
+  int val = 1;
+  std::cout << val << '\n';
   {
-    int name = 2;
-    std::cout << name << '\n';
+    int val = 2;
+    std::cout << val << '\n';
   }
-  std::cout << name << '\n';
+  std::cout << val << '\n';
 }

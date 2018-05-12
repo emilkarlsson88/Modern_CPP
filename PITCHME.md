@@ -24,7 +24,7 @@ do, you blow away your whole leg!" //Stroustrup
 ###### <p> **sanitizer**
 
 ---
-#### **compiler warnings** 
+### **compiler warnings** 
 ![Press Down Key](assets/down-arrow.png)
 +++
 Catch bugs early from warnings messages.
@@ -43,8 +43,7 @@ Catch bugs early from warnings messages.
 <p> If you find a bug, see if you can find a warning flag for it.
 ---
 #### **clang-tidy** and **clang-format**
-![Press Down Key](assets/down-arrow.png)
-
+![Image-Relative](https://media.giphy.com/media/36f3FuSRfoozm/giphy.gif)
 +++
 **Clang-tidy** is a clang-based C++ “**linter**” tool.
 <p> Its purpose is to provide an extensible framework for diagnosing and **fixing typical programming errors**, like style violations, interface misuse, or bugs that can be deduced via **static analysis**.
@@ -59,13 +58,13 @@ But it can also make you write modern C++!!
 @[5,12](Round of the float value to an int)
 @[16-17](What will it print?)
 ---
-#### **cppcheck**
+### **cppcheck**
 ![Image-Relative](https://media.giphy.com/media/88SCuVTIoAJ8Y/giphy.gif)
 +++
 **Cppcheck** is a **static analysis** tool for C/C++ code.
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 
 ---
-#### **sanitizer**
+### **sanitizer**
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
 +++

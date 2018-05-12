@@ -11,6 +11,7 @@
 
 ![Press Down Key](assets/down-arrow.png)
 +++
+---?image=assets/google_the_error_message.jpg
 @title[Main Points]
 
 ###### <p> **compiler warnings**

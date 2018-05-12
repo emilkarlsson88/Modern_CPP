@@ -11,6 +11,7 @@
 
 ![Press Down Key](assets/down-arrow.png)
 +++
+<span style="color:gray; font-size:0.7em"><b>Animated GIFs</b> Work Too!</span>
 ![Image-Relative](https://media.giphy.com/media/PerRzSEG0PuKY/giphy.gif)
 
 +++?image=assets/books.jpg&size=auto 70%

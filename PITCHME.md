@@ -33,7 +33,9 @@ Catch bugs early from warnings messages.
 @[7](2)
 @[9](?)
 @[9](1)
-
+Catch those with -Wshadow
++++
+#### **Takeaway**
 
 ---
 #### **clang-tidy** and **clang-format**

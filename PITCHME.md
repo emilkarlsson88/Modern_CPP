@@ -11,8 +11,7 @@
 
 ![Press Down Key](assets/down-arrow.png)
 +++
-+++?image=assets/google_the_error_message.jpg
-+++?image=assets/copy_and_pasting_from_stack_overflow.jpg
++++?image=assets/books.jpg&size=auto 50%
 ---
 @title[Main Points]
 

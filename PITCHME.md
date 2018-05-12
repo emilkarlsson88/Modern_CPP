@@ -27,6 +27,8 @@
 +++?code=modern_cpp_ex/compiler_warnings/ex/Wconversion.cpp&lang=cpp
 @[7]("-32768 <= short <= 32767")
 @[8]("20000 + 20000 = -25536")
+
+---
 #### **clang-tidy** and **clang-format**
 ![Press Down Key](assets/down-arrow.png)
 

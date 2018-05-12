@@ -1,6 +1,6 @@
-# Sky
+# Modern C++
 
-### A GitPitch Presentation Template
+### A Short Intro on tools to not scrue up!
 
 ---
 

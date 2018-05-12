@@ -16,6 +16,7 @@
 do, you blow away your whole leg!" //Stroustrup
 
 +++?image=assets/books.jpg&size=auto 70%
+#How do we solve problems?
 +++
 @title[Main Points]
 

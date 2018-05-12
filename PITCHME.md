@@ -44,12 +44,15 @@ Catch bugs early from warnings messages.
 +++
 **Clang-tidy** is a clang-based C++ “**linter**” tool.
 <p> Its purpose is to provide an extensible framework for diagnosing and **fixing typical programming errors**, like style violations, interface misuse, or bugs that can be deduced via **static analysis**.
-
++++
+But it can also make you write modern C++!!
 +++?code=modern_cpp_ex/clang_tidy_checks/demo_orig.cpp&lang=cpp
 @[7,12](Should use override specifier)
 @[17-20](Boilderplate code)
 @[23-27](Boilderplate code)
 @[29,31-33](Risk of out-of-bound access => Undefined Behavior!)
++++?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp
+
 
 ---
 #### **cppcheck**

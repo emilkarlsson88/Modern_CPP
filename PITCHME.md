@@ -23,11 +23,9 @@
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
 
----?code=modern\_cpp\_ex/clang\_tidy\_checks/bugprone/misc-incorrect-roundings.cpp&lang=c++lang&title=Golang File
+---?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp&title=Misc Incorrect Roundings
 
 @[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
 ---
 

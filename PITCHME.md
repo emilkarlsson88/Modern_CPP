@@ -19,24 +19,20 @@
 ###### <p> **sanitizer**
 
 ---
-+++
-@title[Compiler warnings]
+
 #### **compiler warnings** 
 
 
 ---
-+++
-@title[Clang-tidy]
+
 #### **clang-tidy** and **clang-format**
 
 
 ---
-+++
-@title[CppCheck]
+
 #### **cppcheck**
 
 ---
-+++
-@title[Sanitizer]
+
 #### **sanitizer**
 ---

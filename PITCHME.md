@@ -60,8 +60,7 @@ But it can also make you write modern C++!!
 @[16-17](What will it print?)
 ---
 #### **cppcheck**
-![Press Down Key](assets/down-arrow.png)
-
+![Image-Relative](https://media.giphy.com/media/88SCuVTIoAJ8Y/giphy.gif)
 +++
 **Cppcheck** is a **static analysis** tool for C/C++ code.
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.

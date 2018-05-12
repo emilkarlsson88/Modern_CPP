@@ -1,4 +1,4 @@
-Create here a main.cpp that contains some of the commen problems/issues that the
+Create here some ex that contains some of the commen problems/issues that the
 GCC compiler can catch.
 
 # Display all warnings flags on g++

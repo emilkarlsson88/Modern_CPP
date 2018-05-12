@@ -36,7 +36,7 @@ Catch bugs early from warnings messages.
 +++
 #### **Takeaway**
 <p> Turn the warnings as high as possible.
-<p> If you find a bug, see ig you can find a warning flag for it.
+<p> If you find a bug, see if you can find a warning flag for it.
 ---
 #### **clang-tidy** and **clang-format**
 ![Press Down Key](assets/down-arrow.png)

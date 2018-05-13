@@ -75,7 +75,7 @@ But it can also make you write modern C++!!
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 +++
 ## Demo
-![MP4 Video](https://m.popkey.co/c8f24a/dgdQR.gif)
+![Image-Relative](https://m.popkey.co/c8f24a/dgdQR.gif)
 +++
 #### **Takeaway**
 - Enable all warnings from cppcheck.
@@ -85,7 +85,8 @@ But it can also make you write modern C++!!
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
 +++
 These are **runtime analyzers** that are executed alongside your program execution.
-
++++
+![Image-Relative](https://media.giphy.com/media/3ofT5MEbCFuEPtVy3m/giphy.gif)
 
 
 

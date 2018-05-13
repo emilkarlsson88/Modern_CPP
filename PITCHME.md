@@ -39,7 +39,8 @@ Catch bugs early from warnings messages.
 +++
 #### **Takeaway**
 - Turn the warnings as high as possible.
-- If you find a bug, see if you can find a warning flag for it.
+- GCC: -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic 
+- MSVC: /W4 (/Wall not recomended)
 ---
 ### **clang-tidy** and **clang-format**
 ![Image-Relative](https://media.giphy.com/media/36f3FuSRfoozm/giphy.gif)

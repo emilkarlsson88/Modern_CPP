@@ -84,8 +84,14 @@ But it can also make you write modern C++!!
 ### **sanitizer**
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
 +++
-These are **runtime analyzers** that are executed alongside your program execution.
+These are **runtime analyzers** that are executed alongside your program execution that can detect:
+- Memory errors
+- Data races.
+- Memory leak.
+- Undefined behavior.
+- etc.
 +++
+## Demo
 ![Image-Relative](https://media.giphy.com/media/3ofT5MEbCFuEPtVy3m/giphy.gif)
 
 

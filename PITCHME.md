@@ -57,6 +57,8 @@ But it can also make you write modern C++!!
 @[17-20](Boilderplate code)
 @[23-27](Boilderplate code)
 @[29,31-33](Risk of out-of-bound access => Undefined Behavior!)
++++
+**Clang-format** is a tool to **automatically format** C/C++/Objective-C code, so that you don't need to worry about **style issues** during code reviews or manually fix them.
 +++?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp
 @[4-6,12](Round of the float value to an int)
 @[5,16-17](What will it print?)

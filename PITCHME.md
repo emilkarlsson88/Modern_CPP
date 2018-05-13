@@ -38,12 +38,12 @@ Catch bugs early from warnings messages.
 @[9](1)
 +++
 #### **Takeaway**
-- Turn the warnings as high as possible.
-- GCC: <p>
+- Turn the warnings as **high as possible**.
+- **GCC**:
     - -Wall -Wextra -Wshadow -Wnon-virtual-dtor
     - -Wold-style-cast -Wcast-align -Wunused
     - -Worverload-virtual -pedantic 
-- MSVC: /W4 (/Wall not recomended)
+- **MSVC**: /W4 (/Wall not recomended)
 ---
 ### **clang-tidy** and **clang-format**
 ![Image-Relative](https://media.giphy.com/media/36f3FuSRfoozm/giphy.gif)

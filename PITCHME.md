@@ -64,7 +64,8 @@ But it can also make you write modern C++!!
 @[5,17](my_round(-1.399999976) = 0)
 +++
 #### **Takeaway**
-- Enable all warnings from clang-tidy (-options=\*).
+- Enable all warnings from clang-tidy
+    - -options=\*
 - Which formatting style you use is less important than having a consistent style.
 ---
 ### **cppcheck**
@@ -74,7 +75,8 @@ But it can also make you write modern C++!!
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 +++
 #### **Takeaway**
-- Enable all warnings from cppcheck (--enable=all).
+- Enable all warnings from cppcheck.
+    - --enable=all
 ---
 ### **sanitizer**
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)

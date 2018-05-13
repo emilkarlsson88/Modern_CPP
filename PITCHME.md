@@ -82,12 +82,12 @@ But it can also make you write modern C++!!
     - --enable=all
 ---
 ### **sanitizer**
-![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
+![Image-Relative](https://media.giphy.com/media/10LBLrmqSkQHks/giphy.gif)
 +++
 These are **runtime analyzers** that are executed alongside your program execution that can detect:
 - Memory errors
 - Data races.
-- Memory leak.
+- Memory leaks.
 - Undefined behavior.
 - etc.
 +++

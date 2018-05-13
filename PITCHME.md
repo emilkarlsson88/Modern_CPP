@@ -39,7 +39,10 @@ Catch bugs early from warnings messages.
 +++
 #### **Takeaway**
 - Turn the warnings as high as possible.
-- GCC: -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic 
+- GCC: <p>
+    - -Wall -Wextra -Wshadow -Wnon-virtual-dtor
+    - -Wold-style-cast -Wcast-align -Wunused
+    - -Worverload-virtual -pedantic 
 - MSVC: /W4 (/Wall not recomended)
 ---
 ### **clang-tidy** and **clang-format**

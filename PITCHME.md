@@ -32,8 +32,8 @@ Catch bugs early from warnings messages.
 @[8](?)
 @[8](20000 + 20000 = -25536)
 +++?code=modern_cpp_ex/compiler_warnings/ex/Wshadow.cpp&lang=cpp
-@[4](1)
-@[7](2)
+@[3-4](1)
+@[6-7](2)
 @[9](?)
 @[9](1)
 +++

@@ -38,8 +38,8 @@ Catch bugs early from warnings messages.
 @[9](1)
 +++
 #### **Takeaway**
-<p> Turn the warnings as high as possible.
-<p> If you find a bug, see if you can find a warning flag for it.
+- Turn the warnings as high as possible.
+- If you find a bug, see if you can find a warning flag for it.
 ---
 ### **clang-tidy** and **clang-format**
 ![Image-Relative](https://media.giphy.com/media/36f3FuSRfoozm/giphy.gif)

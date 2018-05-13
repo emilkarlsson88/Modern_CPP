@@ -1,13 +1,8 @@
-@title[Code Presenting]
-# Modern 
-# C++
-
 ---
 @title[Working With Code Blocks]
-
-#### Tools and Best Practic 
-
-### You Need To Know!
+#### Modern C++
+### Tools and Best Practic
+#### You Need To Know!
 ![Image-Relative](https://media.giphy.com/media/3hQ0hZDo4QhR6/giphy.gif)
 +++
 ![Image-Relative](https://media.giphy.com/media/PerRzSEG0PuKY/giphy.gif)

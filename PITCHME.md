@@ -59,7 +59,7 @@ But it can also make you write modern C++!!
 @[29,31-33](Risk of out-of-bound access => Undefined Behavior!)
 +++?code=modern_cpp_ex/clang_tidy_checks/bugprone/misc-incorrect-roundings.cpp&lang=cpp
 @[4-6,12](Round of the float value to an int)
-@[16-17](What will it print?)
+@[5,16-17](What will it print?)
 ---
 ### **cppcheck**
 ![Image-Relative](https://media.giphy.com/media/88SCuVTIoAJ8Y/giphy.gif)
@@ -71,3 +71,4 @@ But it can also make you write modern C++!!
 ### **sanitizer**
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
 +++
+These are runtime analyzers that are executed alongside your program execution.

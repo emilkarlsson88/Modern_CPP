@@ -26,7 +26,7 @@ do, you blow away your whole leg!" //Stroustrup
 ### **compiler warnings** 
 ![Image-Relative](https://media.giphy.com/media/1sd2bQx5GnQf6/giphy.gif)
 +++
-Catch bugs early from warnings messages.
+Catch bugs early from compiler warnings.
 +++?code=modern_cpp_ex/compiler_warnings/ex/Wconversion.cpp&lang=cpp
 @[7](-32768 <= short <= 32767)
 @[8](?)
@@ -95,6 +95,10 @@ These are **runtime analyzers** that are executed alongside your program executi
 +++
 ## Demo
 ![Image-Relative](https://media.giphy.com/media/3ofT5MEbCFuEPtVy3m/giphy.gif)
-
++++
+#### **Takeaway**
+- Can catch bugs that static analysis tools can't see.
+- or humans (you can't debug race conditions!).
+- You need to define a "scenario" when the problem occurred.
 
 

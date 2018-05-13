@@ -11,7 +11,7 @@ do, you blow away your whole leg!" //Stroustrup
 +++?image=assets/books.jpg&size=auto 70%
 +++
 @title[Main Points]
-
+![Image-Relative](https://media.giphy.com/media/3o752irJcGdztiZY0U/giphy.gif)
 ###### <p> **compiler warnings**
 ###### <p> **clang-tidy** and **clang-format**
 ###### <p> **cppcheck**

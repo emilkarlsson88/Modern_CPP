@@ -1,7 +1,7 @@
 # Modern_CPP
 This repository contains the code/presentation materials from a workshop about "help tools" one can use when developing c++ projects.
 
-#### How to set up the dev evniroment
+### How to set up the dev evniroment
 - Install Docker (https://www.docker.com/community-edition).
 - Open your terminal and go to the root of this project.
 - Run "**docker build -t image_modern_cpp .**" from the terminal.
@@ -12,8 +12,8 @@ This repository contains the code/presentation materials from a workshop about "
     - All the code ex are under **/home/modern_cpp_ex/**
 - If you want to exit the container, you just type "**exit**" in the terminal.
 
-#### "I don't get anything! what should I do?"
-Answer my this first:
+### "I don't get anything! what should I do?"
+Answer me this first:
 - Are you my boss?
     - YES: I will come over to your desk and fix it.
     - NO: Next question.

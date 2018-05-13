@@ -62,6 +62,10 @@ But it can also make you write modern C++!!
 @[5,16-17](What will it print?)
 @[5,16](my_round(0.4999999702) = 1)
 @[5,17](my_round(-1.399999976) = 0)
++++
+#### **Takeaway**
+- Enable all warnings from clang-tidy (-options=\*).
+- Which formatting style you use is less important than having a consistent style.
 ---
 ### **cppcheck**
 ![Image-Relative](https://media.giphy.com/media/88SCuVTIoAJ8Y/giphy.gif)
@@ -69,8 +73,14 @@ But it can also make you write modern C++!!
 **Cppcheck** is a **static analysis** tool for C/C++ code.
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 
+#### **Takeaway**
+- Enable all warnings from cppcheck (--enable=all).
 ---
 ### **sanitizer**
 ![Image-Relative](https://media1.tenor.com/images/df6668bb4af86556421e05b3aaa4b3ca/tenor.gif?itemid=10317609)
 +++
-These are runtime analyzers that are executed alongside your program execution.
+These are **runtime analyzers** that are executed alongside your program execution.
+
+
+
+

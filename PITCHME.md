@@ -74,6 +74,8 @@ But it can also make you write modern C++!!
 **Cppcheck** is a **static analysis** tool for C/C++ code.
 <p> It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
 +++
+![MP4 Video](https://i.imgur.com/AWsu5ew.mp4)
++++
 #### **Takeaway**
 - Enable all warnings from cppcheck.
     - --enable=all

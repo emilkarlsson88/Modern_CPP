@@ -4,13 +4,13 @@ This repository contains the code/presentation materials from a workshop about "
 #### How to set up the dev evniroment
 - Install Docker (https://www.docker.com/community-edition).
 - Open your terminal and go to the root of this project.
-- Run "docker build -t image_modern_cpp ." from the terminal.
+- Run "**docker build -t image_modern_cpp .**" from the terminal.
     - That command will create an image from the Dockerfile, can take some minuts before it is done.
-- When the image is done, run "docker run -it --name modern_cpp -d image_modern_cpp".
-- After that, run "docker ps -a" to see which "CONTAINER ID" the "modern_cpp" container have.
-- Run "docker attach <CONTAINER ID>" and you should be inside the container.
-    - All the code ex are under /home/modern_cpp_ex/
-- If you want to exit the container, you just type "exit" in the terminal.
+- When the image is done, run "**docker run -it --name modern_cpp -d image_modern_cpp**".
+- After that, run "**docker ps -a**" to see which "CONTAINER ID" the "modern_cpp" container have.
+- Run "**docker attach <CONTAINER_ID>**" and you should be inside the container.
+    - All the code ex are under **/home/modern_cpp_ex/**
+- If you want to exit the container, you just type "**exit**" in the terminal.
 
 #### "I don't get anything! what should I do?"
 Answer my this first:

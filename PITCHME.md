@@ -100,5 +100,6 @@ These are **runtime analyzers** that are executed alongside your program executi
 - Can catch bugs that static analysis tools can't see.
 - or humans (you can't debug race conditions!).
 - You need to define a "scenario" when the problem occurred.
-
+---
+![Image-Relative](https://media.giphy.com/media/hcpVSCSwDcKju/giphy.gif)
 

@@ -19,5 +19,4 @@ RUN ln -s /usr/bin/clang-format-6.0 /usr/local/bin/clang-format
 RUN ln -s /usr/bin/clang-tidy-6.0 /usr/local/bin/clang-tidy
 
 RUN mkdir -p /home/modern_cpp_ex
-COPY ./modern_cpp_ex /home/modern_cpp_ex
 
